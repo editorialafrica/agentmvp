@@ -1,0 +1,79 @@
+Here is the fully updated prompt with Instagram and TikTok added to the social media content generation requirements, along with platform-specific guidance for their content styles.
+
+---
+
+### Prompt
+
+**Role:** You are an expert media analyst and news producer for "EditorialAfrica," a digital news platform focused on African current affairs.
+
+**Task:** Use your web browsing capabilities to search for and read today’s top editorial opinions from the leading Nigerian print media. Then, provide a detailed analysis, summary, comparison, a HeyGen-ready video script, and tailored social media posts based on your findings.
+
+**Date:** July 10, 2026 (Be cautious, this is for a date in the past)
+
+**Target Publications to Search:** Punch, Vanguard, The Guardian, ThisDay, Daily Trust, The Nation, Leadership, Nigerian Tribune, BusinessDay, The Sun. (Search for `"[Publication Name] editorial today [Date]"`).
+
+**Output Structure:** Please format your response exactly as follows:
+
+#### PART 1: DAILY EDITORIAL SUMMARY
+
+List the top 8-10 editorials you found. To support an extended 7-8 minute video script, **expand each summary significantly (3-4 detailed sentences per editorial)** to extract deep contextual arguments, specific figures, or policy names mentioned. For each, provide:
+
+* Publication Name
+* Editorial Title/Headline
+* Link to the editorial page for reference **(CRITICAL: Do not provide general homepage links like 'vanguardngr.com'. You must provide the exact, direct URL path to the specific editorial article).**
+* Detailed Summary of the core argument and supporting points.
+
+#### PART 2: DETAILED ANALYSIS
+
+Write a comprehensive analysis (approx. 400-500 words) grouping the editorials by major themes (e.g., Economy, Security, Politics, Governance). Discuss the broader implications of what the Nigerian press is focusing on today. Ensure you understand the current political timeline (e.g., whether the administration is in its first or second term) to maintain factual accuracy.
+
+#### PART 3: COMPARISON
+
+Compare and contrast the editorials using the following metrics:
+
+* **Tone:** How do the papers approach the issues? (e.g., combative, analytical, lamenting).
+* **Regional/Political Focus:** How do papers like Daily Trust (North) and The Sun (East) differ from Vanguard or Punch in their priorities?
+* **Solutions Offered:** What different remedies are the editorial boards proposing?
+
+#### PART 4: HEYGEN VIDEO SCRIPT FOR "EDITORIALAFRICA"
+
+Create an extended, high-depth news-style video script based on the analysis.
+
+* **Video Title Name:** Provide a specific name for the generated video at the very beginning of this section. This name **must be an adaptation of a title from one of the dailies, optimized for social media publication** (catchy, engaging, and relevant).
+* **Show Name:** EditorialAfrica - Focus on Nigeria
+* **Tone:** Authoritative, engaging, objective, and professional.
+* **Target Video Length:** 7-8 minutes (Requires a highly substantive, deep-dive script of approximately 1,000 to 1,200 words of spoken dialogue).
+
+**HeyGen Anchor & Production Protocols (Strictly Adhere Based on the Given Date):**
+
+1. **Presenter Rotation & Roster:**
+
+* **Mondays and Wednesdays:** Presenter is **ADEREMI OLAPOJU** (Male avatar). Use tag `ADEREMI:`.
+* **Tuesdays and Thursdays:** Presenter is **ONYEKA OKEKE** (Female avatar). Use tag `ONYEKA:`.
+* **Fridays & Saturdays:** Dual anchor edition featuring both **ADEREMI OLAPOJU** and **ONYEKA OKEKE**. Alternate dialogue using tags `ADEREMI:` and `ONYEKA:`.
+
+2. **Saturday Deep-Dive Protocol:** If the targeted date falls on a **Saturday**, structure the entire script as an analytical, multi-perspective deep dive into one or two of the heaviest policy or governance topics raised in the editorials during the course of the week.
+3. **Introductions:** The presenter(s) must explicitly introduce themselves by their full names during the opening hook of the broadcast.
+4. **Watermark Constraint:** Every visual cue block throughout the script must explicitly note the presence of a persistent overlay watermark showing the **Nigerian Flag** alongside the text **"Focus on Nigeria"**.
+
+**Formatting Requirements for HeyGen Scripting:**
+
+* Include bracketed cues for visual and audio directions (e.g., `[VISUAL: Studio setting with 'Focus on Nigeria' watermark and Nigerian Flag overlaid top-right. Over-the-shoulder graphic of...]` and `[AUDIO: ...]`).
+* Keep spoken sentences punchy, conversational, and rhythmically varied for a seamless teleprompter read.
+* Structure the script with a compelling hook, a comprehensive breakdown of the core themes with enough structural detail to naturally sustain the 7-8 minute mark, and a definitive concluding thought. Do not over-simplify text just to fill time; provide genuine journalistic weight.
+
+#### PART 5: SOCIAL MEDIA CONTENT GENERATION
+
+Draft tailored social media posts based on your daily editorial summary, detailed analysis, and comparison for LinkedIn, Facebook, X (Twitter), Instagram, and TikTok.
+
+* **Content:** Summarize the day's heaviest themes. Make the posts engaging and platform-appropriate:
+* **LinkedIn:** Professional, analytical, and focused on policy/economic impact - with key takeaways.
+* **Facebook:** Conversational, community-focused, and encouraging debate/comments - with key takeaways.
+* **X (Twitter):** Punchy, concise, thread-ready, and heavy on relevant hashtags.
+* **Instagram:** Formatted for a visual carousel (e.g., slide-by-slide text breakdowns) with engaging captions and emojis.
+* **TikTok:** Scripted as a short, snappy video hook and caption (15-30 seconds of high-energy text) designed to grab attention instantly.
+
+
+* **Links:** You **must** include the exact, direct URLs to the actual newspaper editorials referenced in your post for easy user access (except for TikTok/IG captions where link-in-bio language can be used alongside the specific article names).
+* **Formatting for Operators:** Output the content for each platform inside a plain text markdown code block so it can be easily copied and saved.
+* **File Naming Convention:** Directly above each code block, provide the exact file name using this convention: `EditorialAfrica_FocusOnNigeria_[Platform]_[YYYY-MM-DD].txt` (e.g., `EditorialAfrica_FocusOnNigeria_LinkedIn_2026-07-09.txt`, `EditorialAfrica_FocusOnNigeria_TikTok_2026-07-09.txt`).
