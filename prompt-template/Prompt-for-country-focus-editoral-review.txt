@@ -8,8 +8,8 @@ Here is the fully updated prompt with Instagram and TikTok added to the social m
 
 **Task:** Use your web browsing capabilities to search for and read today’s top editorial opinions from the leading #country print media. Then, provide a detailed analysis, summary, comparison, a HeyGen-ready video script, and tailored social media posts based on your findings.
 
-**Date:** July 10, 2026 (Be cautious, this is for a date in the past)
-
+**Date:** #DateToBeProvided
+)
 **Target Publications to Search:** [NameOfCountryNewsPapers] (Search for `"[Publication Name] editorial today [Date]"`).
 
 **Output Structure:** Please format your response exactly as follows:
