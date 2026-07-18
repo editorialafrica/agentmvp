@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0.0",
+  "pipelineVersion": "1.0.0",
+  "name": "EditorialAfrica Production Pipeline",
+  "description": "Deterministic execution pipeline for EditorialAfrica.",
+  "stages": [
+    {
+      "id": "repository-validation",
+      "name": "Repository Validation",
+      "type": "system",
+      "enabled": true,
+      "required": true,
+      "parallel": false
+    },
+    {
+      "id": "context-initialization",
+      "name": "Context Initialization",
+      "type": "system",
+      "enabled": true,
+      "required": true,
+      "parallel": false
+    },
+    {
+      "id": "editorial-summary",
+      "name": "Editorial Summary",
+      "agent": "EditorialSummary.Agent",
+      "enabled": true,
+      "required": true,
+      "parallel": false
+    },
+    {
+      "id": "comparative-analysis",
+      "name": "Comparative Analysis",
+      "agent": "ComparativeAnalysis.Agent",
+      "enabled": true,
+      "required": true,
+      "parallel": false
+    },
+    {
+      "id": "enterprise-intelligence",
+      "name": "Enterprise Intelligence",
+      "agent": "Enterprise.Agent",
+      "enabled": true,
+      "required": true,
+      "parallel": false
+    },
+    {
+      "id": "publishing",
+      "name": "Publishing",
+      "type": "group",
+      "parallel": true,
+      "members": [
+        "HeyGen.Agent",
+        "Facebook.Agent",
+        "LinkedIn.Agent",
+        "Instagram.Agent",
+        "TikTok.Agent",
+        "X.Agent"
+      ]
+    },
+    {
+      "id": "execution-report",
+      "agent": "ExecutionReport.Agent",
+      "required": true
+    }
+  ]
+}

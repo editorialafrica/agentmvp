@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "1.0.0",
+  "prompts": [
+    {
+      "id": "EditorialSummary.Agent",
+      "file": "prompts/EditorialSummary.Agent.md",
+      "version": "1.0.0",
+      "enabled": true
+    },
+    {
+      "id": "ComparativeAnalysis.Agent",
+      "file": "prompts/ComparativeAnalysis.Agent.md",
+      "version": "1.0.0",
+      "enabled": true
+    },
+    {
+      "id": "Enterprise.Agent",
+      "file": "prompts/Enterprise.Agent.md",
+      "version": "1.0.0",
+      "enabled": true
+    }
+  ]
+}

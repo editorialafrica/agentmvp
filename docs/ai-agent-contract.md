@@ -1,4 +1,4 @@
-# EditorialAfrica Agent Contract
+﻿# EditorialAfrica Agent Contract
 
 **Document Version:** 1.0.0
 
@@ -21,7 +21,7 @@ The objective of this contract is to ensure:
 - Consistent behaviour across all agents
 - Deterministic execution
 - Clear ownership of responsibilities
-- Reliable orchestration by the MASTER_PROMPT
+- Reliable orchestration by the PLATFORM
 - Predictable production outputs
 - Maintainability as the Prompt Library grows
 
@@ -65,7 +65,7 @@ Agents should avoid unnecessary creativity where consistency is more valuable.
 
 ## Context Driven
 
-Agents must consume information exclusively from the Production Context provided by the MASTER_PROMPT.
+Agents must consume information exclusively from the Production Context provided by the PLATFORM.
 
 Agents must never assume information exists outside the supplied context.
 
@@ -124,7 +124,7 @@ Record Execution Status
 
 ↓
 
-Return Control to MASTER_PROMPT
+Return Control to PLATFORM
 ```
 
 ---
@@ -340,7 +340,7 @@ Unexpected execution errors
 
 Agents must never fabricate missing information.
 
-Agents should report failures back to the MASTER_PROMPT.
+Agents should report failures back to the PLATFORM.
 
 ---
 
@@ -610,7 +610,7 @@ Before an agent is approved for inclusion in the Prompt Library it must satisfy 
 
 ✓ Records errors
 
-✓ Returns control to MASTER_PROMPT
+✓ Returns control to PLATFORM
 
 ✓ Complies with this Agent Contract
 

@@ -1,4 +1,4 @@
-# Instagram Agent
+﻿# Instagram Agent
 
 ## Purpose
 
@@ -18,7 +18,7 @@ Your objective is to spark curiosity, provide concise editorial insight, and enc
 
 # Inputs
 
-The MASTER_PROMPT has already completed:
+The PLATFORM has already completed:
 
 - Editorial Summary
 - Comparative Analysis
@@ -226,7 +226,7 @@ Assume the caption accompanies one of the following:
 - Presenter image
 - EditorialAfrica branded graphic
 
-Do not describe the image unless instructed by the MASTER_PROMPT.
+Do not describe the image unless instructed by the PLATFORM.
 
 ---
 

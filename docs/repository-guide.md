@@ -1,4 +1,4 @@
-# Repository Guide
+﻿# Repository Guide
 
 ## Purpose
 
@@ -163,7 +163,7 @@ Contains the EditorialAfrica production prompt.
 ```
 prompts/
 
-    MASTER_PROMPT.md
+    PLATFORM.md
 ```
 
 This is the most important file in the repository.

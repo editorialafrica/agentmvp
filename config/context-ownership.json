@@ -1,0 +1,27 @@
+{
+  "schemaVersion": "1.0.0",
+  "ownership": {
+    "productionContext": {
+      "workflow": "MASTER_PROMPT",
+      "artifacts": "MASTER_PROMPT"
+    },
+    "editorialContext": {
+      "editorialSummary": "EditorialSummary.Agent",
+      "comparativeAnalysis": "ComparativeAnalysis.Agent",
+      "enterpriseIntelligence": "Enterprise.Agent"
+    },
+    "contentContext": {
+      "sharedMessaging": "ContextManager",
+      "facebook": "Facebook.Agent",
+      "linkedin": "LinkedIn.Agent",
+      "instagram": "Instagram.Agent",
+      "tiktok": "TikTok.Agent",
+      "x": "X.Agent",
+      "heygen": "HeyGen.Agent"
+    },
+    "executionContext": {
+      "executionLog": "ExecutionReport.Agent",
+      "validation": "ExecutionReport.Agent"
+    }
+  }
+}

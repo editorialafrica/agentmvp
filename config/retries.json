@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.0.0",
+  "default": {
+    "maxRetries": 1,
+    "backoff": "exponential"
+  },
+  "rules": {
+    "ValidationFailure": {
+      "retry": false
+    },
+    "MissingContext": {
+      "retry": false
+    },
+    "GenerationFailure": {
+      "retry": true,
+      "maxRetries": 1
+    },
+    "TransientFailure": {
+      "retry": true,
+      "maxRetries": 2
+    },
+    "ConfigurationFailure": {
+      "retry": false
+    }
+  }
+}

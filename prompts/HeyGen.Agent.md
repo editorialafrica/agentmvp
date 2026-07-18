@@ -1,4 +1,4 @@
-# HeyGen Agent
+﻿# HeyGen Agent
 
 ## Purpose
 
@@ -18,7 +18,7 @@ It is a broadcast-quality television news bulletin delivered by a professional E
 
 # Inputs
 
-The MASTER_PROMPT has already completed:
+The PLATFORM has already completed:
 
 - Repository validation
 - Editorial Summary

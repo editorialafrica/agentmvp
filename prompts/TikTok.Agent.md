@@ -1,4 +1,4 @@
-# TikTok Agent
+﻿# TikTok Agent
 
 ## Purpose
 
@@ -20,7 +20,7 @@ Create content specifically designed for short-form mobile video consumption.
 
 # Inputs
 
-The MASTER_PROMPT has already completed:
+The PLATFORM has already completed:
 
 - Editorial Summary
 - Comparative Analysis

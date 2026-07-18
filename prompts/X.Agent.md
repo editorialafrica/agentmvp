@@ -1,4 +1,4 @@
-# X Agent
+﻿# X Agent
 
 ## Purpose
 
@@ -16,7 +16,7 @@ Write specifically for the pace and style of X.
 
 # Inputs
 
-The MASTER_PROMPT has already completed:
+The PLATFORM has already completed:
 
 - Editorial Summary
 - Comparative Analysis

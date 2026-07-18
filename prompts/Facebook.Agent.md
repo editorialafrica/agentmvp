@@ -1,4 +1,4 @@
-# Facebook Agent
+﻿# Facebook Agent
 
 ## Purpose
 
@@ -18,7 +18,7 @@ Your objective is to encourage meaningful engagement while preserving EditorialA
 
 # Inputs
 
-The MASTER_PROMPT has already completed:
+The PLATFORM has already completed:
 
 - Editorial Summary
 - Comparative Analysis

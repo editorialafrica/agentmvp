@@ -1,4 +1,4 @@
-# ExecutionReport Agent
+﻿# ExecutionReport Agent
 
 ## Purpose
 
@@ -27,7 +27,7 @@ It should never generate editorial analysis or social media content.
 
 # Inputs
 
-The MASTER_PROMPT has already completed the production workflow.
+The PLATFORM has already completed the production workflow.
 
 You receive:
 
@@ -127,7 +127,7 @@ Review the execution status of every production agent.
 
 Expected agents:
 
-- MASTER_PROMPT
+- PLATFORM
 - EditorialSummary.Agent
 - ComparativeAnalysis.Agent
 - Enterprise.Agent

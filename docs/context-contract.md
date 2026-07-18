@@ -1,4 +1,4 @@
-# EditorialAfrica Context Contract
+﻿# EditorialAfrica Context Contract
 
 **Document Version:** 1.0.0
 
@@ -16,7 +16,7 @@
 
 This document defines the Context Contract for the EditorialAfrica production platform.
 
-The Context Contract establishes the authoritative data structures exchanged between the MASTER_PROMPT and every AI Agent during a production run.
+The Context Contract establishes the authoritative data structures exchanged between the PLATFORM and every AI Agent during a production run.
 
 Its objectives are to:
 
@@ -37,10 +37,10 @@ EditorialAfrica uses shared execution contexts rather than direct communication 
 
 Agents NEVER communicate with one another directly.
 
-Instead, every interaction occurs through approved Context documents managed by the MASTER_PROMPT.
+Instead, every interaction occurs through approved Context documents managed by the PLATFORM.
 
 ```
-MASTER_PROMPT
+PLATFORM
         │
         ▼
 Production Context
@@ -100,7 +100,7 @@ It includes:
 
 ## Owner
 
-MASTER_PROMPT
+PLATFORM
 
 ---
 
@@ -268,7 +268,7 @@ Examples:
 
 ExecutionReport.Agent
 
-MASTER_PROMPT
+PLATFORM
 
 ---
 
@@ -414,7 +414,7 @@ If incompatible versions are detected:
 
 - stop execution
 - report the incompatibility
-- return control to MASTER_PROMPT
+- return control to PLATFORM
 
 ---
 

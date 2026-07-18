@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "1.0.0",
+  "artifacts": [
+    {
+      "name": "Editorial Summary",
+      "owner": "EditorialSummary.Agent",
+      "path": "artifacts/editorial-summary.md",
+      "required": true
+    },
+    {
+      "name": "Enterprise Intelligence",
+      "owner": "Enterprise.Agent",
+      "path": "artifacts/enterprise.md",
+      "required": true
+    },
+    {
+      "name": "Facebook Post",
+      "owner": "Facebook.Agent",
+      "path": "artifacts/facebook.md",
+      "required": true
+    }
+  ]
+}

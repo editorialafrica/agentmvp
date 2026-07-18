@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.0.0",
+  "dependencies": {
+    "EditorialSummary.Agent": [],
+    "ComparativeAnalysis.Agent": [
+      "EditorialSummary.Agent"
+    ],
+    "Enterprise.Agent": [
+      "ComparativeAnalysis.Agent"
+    ],
+    "HeyGen.Agent": [
+      "Enterprise.Agent"
+    ],
+    "Facebook.Agent": [
+      "Enterprise.Agent"
+    ],
+    "LinkedIn.Agent": [
+      "Enterprise.Agent"
+    ],
+    "Instagram.Agent": [
+      "Enterprise.Agent"
+    ],
+    "TikTok.Agent": [
+      "Enterprise.Agent"
+    ],
+    "X.Agent": [
+      "Enterprise.Agent"
+    ],
+    "ExecutionReport.Agent": [
+      "HeyGen.Agent",
+      "Facebook.Agent",
+      "LinkedIn.Agent",
+      "Instagram.Agent",
+      "TikTok.Agent",
+      "X.Agent"
+    ]
+  }
+}

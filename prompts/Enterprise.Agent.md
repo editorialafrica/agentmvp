@@ -1,4 +1,4 @@
-# Enterprise Agent
+﻿# Enterprise Agent
 
 ## Purpose
 
@@ -18,7 +18,7 @@ Do not analyse raw editorials independently.
 
 # Inputs
 
-The MASTER_PROMPT has already completed:
+The PLATFORM has already completed:
 
 - Repository validation
 - Editorial collection

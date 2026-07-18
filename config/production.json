@@ -1,4 +1,4 @@
-{
+﻿{
   "version": "1.0.0",
   "platform": {
     "name": "EditorialAfrica",
@@ -15,7 +15,7 @@
   "production": {
     "executionMode": "manual",
     "aiPlatform": "Google Gemini",
-    "masterPrompt": "MASTER_PROMPT.md",
+    "masterPrompt": "PLATFORM.md",
     "generateExecutionReport": true,
     "validateOutputs": true
   },

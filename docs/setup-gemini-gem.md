@@ -1,4 +1,4 @@
-# Google Gemini Gem Setup
+﻿# Google Gemini Gem Setup
 
 ## Purpose
 
@@ -36,7 +36,7 @@ Use the production prompt.
 
 Primary prompt:
 
-MASTER_PROMPT.md
+PLATFORM.md
 
 ---
 

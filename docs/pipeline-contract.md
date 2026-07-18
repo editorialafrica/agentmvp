@@ -1,4 +1,4 @@
-# EditorialAfrica Pipeline Contract
+﻿# EditorialAfrica Pipeline Contract
 
 **Document Version:** 1.0.0
 
@@ -464,10 +464,10 @@ The pipeline is complete only when:
 
 | Stage | Owner |
 |---------|-------|
-| Initialization | MASTER_PROMPT |
-| Validation | MASTER_PROMPT |
+| Initialization | PLATFORM |
+| Validation | PLATFORM |
 | Context Initialization | Context Manager |
-| Editorial Collection | MASTER_PROMPT |
+| Editorial Collection | PLATFORM |
 | Editorial Summary | EditorialSummary.Agent |
 | Comparative Analysis | ComparativeAnalysis.Agent |
 | Enterprise Intelligence | Enterprise.Agent |

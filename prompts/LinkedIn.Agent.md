@@ -1,4 +1,4 @@
-# LinkedIn Agent
+﻿# LinkedIn Agent
 
 ## Purpose
 
@@ -18,7 +18,7 @@ The objective is to position EditorialAfrica as a trusted source of editorial in
 
 # Inputs
 
-The MASTER_PROMPT has already completed:
+The PLATFORM has already completed:
 
 - Editorial Summary
 - Comparative Analysis

@@ -1,4 +1,4 @@
-# ComparativeAnalysis Agent
+﻿# ComparativeAnalysis Agent
 
 ## Purpose
 
@@ -18,7 +18,7 @@ Your objective is to identify editorial consensus, disagreement, recurring theme
 
 # Inputs
 
-The MASTER_PROMPT has already:
+The PLATFORM has already:
 
 - Loaded repository configuration.
 - Validated production inputs.

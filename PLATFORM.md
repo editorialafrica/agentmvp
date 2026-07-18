@@ -1,4 +1,4 @@
-# EditorialAfrica Master Prompt
+﻿# EditorialAfrica Platform Prompt
 
 ## Purpose
 
@@ -50,7 +50,7 @@ Before beginning production, load the following repository resources in order.
 5. config/filenames.json
 6. countries/<selected-country>.txt
 7. templates/*
-8. MASTER_PROMPT.md (this document)
+8. PLATFORM.md (this document)
 
 If any required resource cannot be read, stop production and report the issue.
 

@@ -1,4 +1,4 @@
-# EditorialSummary Agent
+﻿# EditorialSummary Agent
 
 ## Purpose
 
@@ -18,7 +18,7 @@ Focus exclusively on producing an accurate, balanced, and evidence-based editori
 
 # Inputs
 
-The MASTER_PROMPT has already completed the following:
+The PLATFORM has already completed the following:
 
 - Loaded repository configuration.
 - Loaded the selected country configuration.
@@ -76,7 +76,7 @@ Never:
 
 ## Step 1 — Review Editorial Collection
 
-Review every editorial supplied by the MASTER_PROMPT.
+Review every editorial supplied by the PLATFORM.
 
 Confirm:
 
