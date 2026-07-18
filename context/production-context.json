@@ -1,0 +1,57 @@
+{
+  "version": "1.0.0",
+
+  "metadata": {
+    "executionId": "",
+    "executionDate": "",
+    "country": "",
+    "countryCode": "",
+    "language": "",
+    "timezone": "",
+    "aiPlatform": "",
+    "repositoryVersion": "",
+    "promptLibraryVersion": "",
+    "productionMode": "manual",
+    "status": "PENDING",
+    "startedAt": "",
+    "completedAt": "",
+    "durationSeconds": 0
+  },
+
+  "configuration": {
+    "countryConfiguration": "",
+    "productionConfiguration": "config/production.json",
+    "outputsConfiguration": "config/outputs.json",
+    "validationConfiguration": "config/validation.json",
+    "filenameConfiguration": "config/filenames.json"
+  },
+
+  "workflow": {
+    "currentAgent": "",
+    "nextAgent": "",
+    "remainingAgents": [],
+    "completedAgents": [],
+    "failedAgents": [],
+    "retryCount": 0
+  },
+
+  "artifacts": {
+    "editorialSummary": "",
+    "comparativeAnalysis": "",
+    "enterpriseReport": "",
+    "heygenScript": "",
+    "facebookPost": "",
+    "linkedinPost": "",
+    "instagramPost": "",
+    "tiktokPackage": "",
+    "xPost": "",
+    "executionReport": ""
+  },
+
+  "publication": {
+    "readyForEditorialReview": false,
+    "readyForPublication": false,
+    "publicationBlocked": false,
+    "blockingReason": ""
+  }
+}

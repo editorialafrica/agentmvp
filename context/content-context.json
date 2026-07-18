@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+
+  "headline": "",
+
+  "summary": "",
+
+  "dominantStory": "",
+
+  "keyInsights": [],
+
+  "businessInsights": [],
+
+  "policyInsights": [],
+
+  "publicInterestTopics": [],
+
+  "recommendedCallToAction": "",
+
+  "hashtags": {
+    "primary": [],
+    "secondary": [],
+    "country": [],
+    "topics": []
+  },
+
+  "tone": {
+    "facebook": "",
+    "linkedin": "",
+    "instagram": "",
+    "tiktok": "",
+    "x": ""
+  }
+}

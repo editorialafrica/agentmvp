@@ -1,0 +1,46 @@
+{
+  "version": "1.0.0",
+
+  "agents": [],
+
+  "validation": {
+    "input": {
+      "status": "PENDING",
+      "messages": []
+    },
+    "sources": {
+      "status": "PENDING",
+      "messages": []
+    },
+    "editorial": {
+      "status": "PENDING",
+      "messages": []
+    },
+    "output": {
+      "status": "PENDING",
+      "messages": []
+    }
+  },
+
+  "warnings": [],
+
+  "errors": [],
+
+  "metrics": {
+    "totalAgents": 0,
+    "completedAgents": 0,
+    "failedAgents": 0,
+    "successfulArtifacts": 0,
+    "failedArtifacts": 0,
+    "executionDurationSeconds": 0
+  },
+
+  "timeline": [
+    {
+      "timestamp": "",
+      "agent": "",
+      "event": "",
+      "details": ""
+    }
+  ]
+}

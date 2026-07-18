@@ -18,6 +18,7 @@
   "outputs": [
     {
       "id": "editorial-summary",
+      "prompt": "prompts/EditorialSummary.md",
       "name": "Editorial Summary",
       "enabled": true,
       "required": true,
@@ -27,6 +28,7 @@
     },
     {
       "id": "comparative-analysis",
+      "prompt": "prompts/ComparativeAnalysis.md",
       "name": "Comparative Analysis",
       "enabled": true,
       "required": true,
@@ -36,6 +38,7 @@
     },
     {
       "id": "heygen-script",
+      "prompt": "prompts/HeyGen.md",
       "name": "HeyGen Video Script",
       "enabled": true,
       "required": true,
@@ -45,6 +48,7 @@
     },
     {
       "id": "facebook",
+      "prompt": "prompts/Facebook.md",
       "name": "Facebook Post",
       "enabled": true,
       "required": true,
@@ -55,6 +59,7 @@
     {
       "id": "linkedin",
       "name": "LinkedIn Post",
+      "prompt": "prompts/LinkedIn.md",
       "enabled": true,
       "required": true,
       "category": "social",
@@ -63,6 +68,7 @@
     },
     {
       "id": "instagram",
+      "prompt": "prompts/Instagram.md",
       "name": "Instagram Caption",
       "enabled": true,
       "required": true,
@@ -72,6 +78,7 @@
     },
     {
       "id": "tiktok",
+      "prompt": "prompts/TikTok.md",
       "name": "TikTok Caption",
       "enabled": true,
       "required": true,
@@ -81,6 +88,7 @@
     },
     {
       "id": "x",
+      "prompt": "prompts/X.md",
       "name": "X Post",
       "enabled": true,
       "required": true,
@@ -90,6 +98,7 @@
     },
     {
       "id": "execution-report",
+      "prompt": "prompts/ExecutionReport.md",
       "name": "Execution Report",
       "enabled": true,
       "required": true,

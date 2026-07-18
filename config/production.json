@@ -15,7 +15,7 @@
   "production": {
     "executionMode": "manual",
     "aiPlatform": "Google Gemini",
-    "masterPrompt": "prompts/Prompt-for-country-editorial-review.md",
+    "masterPrompt": "MASTER_PROMPT.md",
     "generateExecutionReport": true,
     "validateOutputs": true
   },

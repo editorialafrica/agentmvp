@@ -1,0 +1,58 @@
+{
+  "version": "1.0.0",
+
+  "editorialCollection": {
+    "status": "PENDING",
+    "expectedEditorials": 0,
+    "collectedEditorials": 0,
+    "sources": []
+  },
+
+  "editorialSummary": {
+    "status": "PENDING",
+    "headline": "",
+    "executiveSummary": "",
+    "nationalThemes": [],
+    "majorIssues": [],
+    "keyTakeaways": [],
+    "editorialSnapshots": []
+  },
+
+  "comparativeAnalysis": {
+    "status": "PENDING",
+    "consensusThemes": [],
+    "divergentViews": [],
+    "editorialMatrix": [],
+    "nationalAssessment": "",
+    "editorialIntelligence": ""
+  },
+
+  "enterpriseIntelligence": {
+    "status": "PENDING",
+    "executiveBrief": "",
+    "strategicThemes": [],
+    "businessImplications": [],
+    "policyImplications": [],
+    "governanceAssessment": "",
+    "risks": [],
+    "opportunities": [],
+    "recommendedMonitoring": []
+  },
+
+  "sharedFacts": [
+    {
+      "id": "",
+      "statement": "",
+      "confidence": "HIGH",
+      "supportingEditorials": []
+    }
+  ],
+
+  "editorialEntities": {
+    "people": [],
+    "organizations": [],
+    "countries": [],
+    "locations": [],
+    "topics": []
+  }
+}

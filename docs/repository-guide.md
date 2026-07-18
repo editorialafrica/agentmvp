@@ -163,7 +163,7 @@ Contains the EditorialAfrica production prompt.
 ```
 prompts/
 
-    Prompt-for-country-editorial-review.md
+    MASTER_PROMPT.md
 ```
 
 This is the most important file in the repository.
