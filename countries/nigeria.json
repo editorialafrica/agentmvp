@@ -1,0 +1,27 @@
+{
+  "country": "Nigeria",
+  "iso": "NG",
+  "language": "English",
+  "timezone": "Africa/Lagos",
+  "defaultPresenter": "male",
+  "presenters": {
+    "male": {
+      "name": "Aderemi Olapoju"
+    },
+    "female": {
+      "name": "Onyeka Okeke"
+    }
+  },
+  "newspapers": [
+    "Punch",
+    "The Guardian",
+    "BusinessDay",
+    "Daily Trust",
+    "ThisDay",
+    "Vanguard",
+    "Leadership",
+    "Nigerian Tribune",
+    "The Nation",
+    "The Sun"
+  ]
+}
