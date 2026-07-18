@@ -1,4 +1,45 @@
 {
-  "minEditorials": 8,
-  "requireUrls": true
+  "version": "1.0.0",
+
+  "description": "Validation rules applied to every EditorialAfrica production run.",
+
+  "inputValidation": {
+    "requireExecutionDate": true,
+    "requireCountryConfiguration": true,
+    "requireProductionConfiguration": true
+  },
+
+  "sourceValidation": {
+    "approvedNewspapersOnly": true,
+    "requireSourceUrl": true,
+    "allowDuplicateEditorials": false,
+    "minimumEditorials": 8,
+    "maximumEditorials": 10
+  },
+
+  "editorialValidation": {
+    "requireEditorialSummary": true,
+    "requireComparativeAnalysis": true,
+    "requireBalancedAnalysis": true,
+    "requireEvidenceBasedConclusions": true,
+    "prohibitFabricatedFacts": true,
+    "prohibitFabricatedQuotes": true,
+    "prohibitHallucinatedUrls": true
+  },
+
+  "outputValidation": {
+    "requireAllConfiguredOutputs": true,
+    "validateOutputOrder": true,
+    "requireExecutionReport": true
+  },
+
+  "executionValidation": {
+    "reportWarnings": true,
+    "allowPartialCompletion": false,
+    "executionStatus": [
+      "SUCCESS",
+      "WARNING",
+      "FAILED"
+    ]
+  }
 }

@@ -1,5 +1,101 @@
 {
-  "analysis": true,
-  "social": true,
-  "video": true
+  "version": "1.0.0",
+
+  "description": "Defines every artifact that must be generated during an EditorialAfrica production run.",
+
+  "generationOrder": [
+    "editorial-summary",
+    "comparative-analysis",
+    "heygen-script",
+    "facebook",
+    "linkedin",
+    "instagram",
+    "tiktok",
+    "x",
+    "execution-report"
+  ],
+
+  "outputs": [
+    {
+      "id": "editorial-summary",
+      "name": "Editorial Summary",
+      "enabled": true,
+      "required": true,
+      "category": "analysis",
+      "template": null,
+      "outputFolder": "Analysis"
+    },
+    {
+      "id": "comparative-analysis",
+      "name": "Comparative Analysis",
+      "enabled": true,
+      "required": true,
+      "category": "analysis",
+      "template": "templates/story-ranking.md",
+      "outputFolder": "Analysis"
+    },
+    {
+      "id": "heygen-script",
+      "name": "HeyGen Video Script",
+      "enabled": true,
+      "required": true,
+      "category": "video",
+      "template": null,
+      "outputFolder": "Scripts"
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook Post",
+      "enabled": true,
+      "required": true,
+      "category": "social",
+      "template": null,
+      "outputFolder": "Social"
+    },
+    {
+      "id": "linkedin",
+      "name": "LinkedIn Post",
+      "enabled": true,
+      "required": true,
+      "category": "social",
+      "template": null,
+      "outputFolder": "Social"
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram Caption",
+      "enabled": true,
+      "required": true,
+      "category": "social",
+      "template": null,
+      "outputFolder": "Social"
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok Caption",
+      "enabled": true,
+      "required": true,
+      "category": "social",
+      "template": null,
+      "outputFolder": "Social"
+    },
+    {
+      "id": "x",
+      "name": "X Post",
+      "enabled": true,
+      "required": true,
+      "category": "social",
+      "template": null,
+      "outputFolder": "Social"
+    },
+    {
+      "id": "execution-report",
+      "name": "Execution Report",
+      "enabled": true,
+      "required": true,
+      "category": "report",
+      "template": "templates/execution-report.md",
+      "outputFolder": "Reports"
+    }
+  ]
 }

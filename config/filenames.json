@@ -1,3 +1,22 @@
 {
-  "editorialSummary": "EditorialAfrica_{country}_{date}_EditorialSummary.md"
+  "version": "1.0.0",
+
+  "description": "Defines the naming convention for all generated EditorialAfrica artifacts.",
+
+  "placeholders": {
+    "{executionDate}": "Production date from editorial-date",
+    "{country}": "Country defined by the selected country configuration"
+  },
+
+  "artifacts": {
+    "editorial-summary": "{executionDate}-{country}-editorial-summary.md",
+    "comparative-analysis": "{executionDate}-{country}-comparative-analysis.md",
+    "heygen-script": "{executionDate}-{country}-heygen-script.md",
+    "facebook": "{executionDate}-{country}-facebook-post.md",
+    "linkedin": "{executionDate}-{country}-linkedin-post.md",
+    "instagram": "{executionDate}-{country}-instagram-caption.md",
+    "tiktok": "{executionDate}-{country}-tiktok-caption.md",
+    "x": "{executionDate}-{country}-x-post.md",
+    "execution-report": "{executionDate}-{country}-execution-report.md"
+  }
 }

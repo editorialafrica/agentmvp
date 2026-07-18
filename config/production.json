@@ -1,20 +1,41 @@
 {
-  "version": "2.0",
-  "input": {
-    "country": "<runtime>",
-    "executionDate": "<runtime>"
+  "version": "1.0.0",
+  "platform": {
+    "name": "EditorialAfrica",
+    "mode": "MVP",
+    "description": "AI-assisted daily editorial production platform powered by Google Gemini."
   },
-  "presenter": {
-    "source": "country"
+  "runtime": {
+    "executionDateSource": "editorial-date",
+    "countrySource": "countries/<country>.txt",
+    "language": "English",
+    "timezoneSource": "country",
+    "presenterSource": "country"
   },
-  "enabledOutputs": [
-    "EditorialSummary",
-    "ComparativeAnalysis",
-    "HeyGen",
-    "LinkedIn",
-    "Facebook",
-    "Instagram",
-    "TikTok",
-    "X"
-  ]
+  "production": {
+    "executionMode": "manual",
+    "aiPlatform": "Google Gemini",
+    "masterPrompt": "prompts/Prompt-for-country-editorial-review.md",
+    "generateExecutionReport": true,
+    "validateOutputs": true
+  },
+  "outputs": {
+    "source": "config/outputs.json",
+    "generateInConfiguredOrder": true,
+    "requireAllOutputs": true
+  },
+  "artifacts": {
+    "rootFolder": "artifacts",
+    "folderPattern": "{executionDate}",
+    "overwriteExisting": false
+  },
+  "quality": {
+    "validationRules": "config/validation.json",
+    "stopOnValidationFailure": false,
+    "includeWarningsInExecutionReport": true
+  },
+  "logging": {
+    "enabled": true,
+    "executionReportTemplate": "templates/execution-report.md"
+  }
 }
