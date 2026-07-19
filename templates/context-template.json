@@ -1,0 +1,36 @@
+{
+  "schemaVersion": "1.0.0",
+  "contextName": "",
+  "description": "",
+  "owner": "",
+  "version": "1.0.0",
+  "status": "active",
+
+  "metadata": {
+    "createdBy": "",
+    "createdOn": "",
+    "lastUpdated": "",
+    "pipelineRunId": "",
+    "country": "",
+    "language": ""
+  },
+
+  "permissions": {
+    "owner": "",
+    "readers": [],
+    "writers": []
+  },
+
+  "sections": {},
+
+  "validation": {
+    "required": [],
+    "optional": []
+  },
+
+  "audit": {
+    "lastModifiedBy": "",
+    "lastModifiedAt": "",
+    "changeReason": ""
+  }
+}

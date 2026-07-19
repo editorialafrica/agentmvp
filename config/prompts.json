@@ -3,6 +3,11 @@
   "prompts": [
     {
       "id": "EditorialSummary.Agent",
+      "category": "editorial",
+      "template": "editorial-agent-template",
+      "templateVersion": "1.0.0",
+      "artifact": "editorial-summary.md",
+      "context": "editorial-context.json",
       "file": "prompts/EditorialSummary.Agent.md",
       "version": "1.0.0",
       "enabled": true
