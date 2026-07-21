@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://editorialafrica.ai/schemas/defs/owner.schema.json",
+
+  "title": "Resource Owner",
+
+  "description": "Defines ownership of a platform resource.",
+
+  "type": "object",
+
+  "properties": {
+
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+
+    "type": {
+      "type": "string",
+      "enum": [
+        "Person",
+        "Agent",
+        "Team",
+        "Platform",
+        "Pipeline"
+      ]
+    },
+
+    "email": {
+      "type": "string",
+      "format": "email"
+    }
+  },
+
+  "required": [
+    "name",
+    "type"
+  ],
+
+  "additionalProperties": false
+}

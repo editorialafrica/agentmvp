@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://editorialafrica.ai/schemas/defs/permissions.schema.json",
+
+  "title": "Permissions",
+
+  "description": "Read and write permissions for platform resources.",
+
+  "type": "object",
+
+  "properties": {
+
+    "read": {
+
+      "type": "array",
+
+      "items": {
+        "type": "string"
+      },
+
+      "uniqueItems": true
+    },
+
+    "write": {
+
+      "type": "array",
+
+      "items": {
+        "type": "string"
+      },
+
+      "uniqueItems": true
+    },
+
+    "owner": {
+
+      "type": "string"
+    }
+  },
+
+  "required": [
+    "read",
+    "write",
+    "owner"
+  ],
+
+  "additionalProperties": false
+}

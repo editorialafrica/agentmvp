@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://editorialafrica.ai/schemas/defs/version.schema.json",
+
+  "title": "Semantic Version",
+
+  "description": "Semantic version following MAJOR.MINOR.PATCH.",
+
+  "type": "string",
+
+  "pattern": "^\\d+\\.\\d+\\.\\d+$",
+
+  "examples": [
+    "1.0.0",
+    "1.2.5",
+    "2.0.0"
+  ]
+}

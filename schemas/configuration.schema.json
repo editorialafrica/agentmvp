@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://editorialafrica.ai/schemas/configuration.schema.json",
+  "title": "EditorialAfrica Configuration Schema",
+  "description": "Common schema for all EditorialAfrica configuration files.",
+
+  "allOf": [
+    {
+      "$ref": "common.schema.json"
+    },
+    {
+      "type": "object",
+
+      "properties": {
+        "configuration": {
+          "type": "string",
+          "description": "Unique configuration name.",
+          "minLength": 1
+        },
+
+        "description": {
+          "type": "string"
+        },
+
+        "enabled": {
+          "type": "boolean",
+          "default": true
+        },
+
+        "priority": {
+          "type": "integer",
+          "minimum": 0
+        },
+
+        "environment": {
+          "type": "string",
+          "enum": [
+            "Development",
+            "Test",
+            "Staging",
+            "Production"
+          ]
+        },
+
+        "settings": {
+          "type": "object",
+          "description": "Configuration-specific settings.",
+          "additionalProperties": true
+        },
+
+        "validation": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "severity": {
+              "type": "string",
+              "enum": [
+                "Information",
+                "Warning",
+                "Error",
+                "Critical"
+              ]
+            }
+          },
+          "required": [
+            "enabled"
+          ],
+          "additionalProperties": false
+        },
+
+        "metadata": {
+          "type": "object",
+          "properties": {
+            "maintainer": {
+              "type": "string"
+            },
+            "documentation": {
+              "type": "string"
+            }
+          },
+          "additionalProperties": true
+        }
+      },
+
+      "required": [
+        "configuration",
+        "description",
+        "enabled",
+        "settings"
+      ],
+
+      "additionalProperties": true
+    }
+  ]
+}

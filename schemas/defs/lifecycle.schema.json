@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://editorialafrica.ai/schemas/defs/lifecycle.schema.json",
+
+  "title": "Lifecycle",
+
+  "description": "Defines lifecycle state of a platform resource.",
+
+  "type": "string",
+
+  "enum": [
+    "Draft",
+    "Review",
+    "Approved",
+    "Stable",
+    "Deprecated",
+    "Archived"
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "schemaVersion": "1.0.0",
+
+  "repository": {
+    "name": "EditorialAfrica",
+    "description": "AI-powered editorial intelligence and publishing platform for African news media.",
+    "version": "1.0.0",
+    "status": "Production",
+    "owner": "EditorialAfrica",
+    "license": "Proprietary",
+    "repositoryType": "AI Platform",
+    "created": "2026-07-01",
+    "lastUpdated": "2026-07-19"
+  },
+
+  "platform": {
+    "name": "EditorialAfrica AI Platform",
+    "architecture": "Configuration-Driven",
+    "executionModel": "Pipeline",
+    "contextModel": "Shared Context",
+    "orchestrator": "PLATFORM.md",
+    "runtime": "Prompt Orchestration"
+  },
+
+  "versions": {
+    "repository": "1.0.0",
+    "platform": "1.0.0",
+    "pipeline": "1.0.0",
+    "contexts": "1.0.0",
+    "templates": "1.0.0",
+    "contracts": "1.0.0",
+    "configuration": "1.0.0",
+    "schemas": "1.0.0"
+  },
+
+  "countries": {
+    "default": "nigeria",
+    "supported": [
+      "nigeria"
+    ]
+  },
+
+  "languages": {
+    "default": "en",
+    "supported": [
+      "en"
+    ]
+  },
+
+  "publicationChannels": [
+    "facebook",
+    "linkedin",
+    "instagram",
+    "tiktok",
+    "x",
+    "heygen"
+  ],
+
+  "agentCategories": [
+    "editorial",
+    "social",
+    "video",
+    "reporting"
+  ],
+
+  "pipeline": {
+    "configuration": "config/pipeline.json",
+    "dependencies": "config/dependencies.json",
+    "validation": "config/validation.json",
+    "retries": "config/retries.json"
+  },
+
+  "contexts": [
+    {
+      "name": "production",
+      "file": "context/production-context.json",
+      "owner": "Pipeline Engine"
+    },
+    {
+      "name": "editorial",
+      "file": "context/editorial-context.json",
+      "owner": "Editorial Agents"
+    },
+    {
+      "name": "content",
+      "file": "context/content-context.json",
+      "owner": "Publishing Agents"
+    },
+    {
+      "name": "execution",
+      "file": "context/execution-context.json",
+      "owner": "ExecutionReport.Agent"
+    }
+  ],
+
+  "templates": {
+    "root": "templates/",
+    "agent": "templates/agent-template.md",
+    "editorial": "templates/editorial-agent-template.md",
+    "social": "templates/social-agent-template.md",
+    "video": "templates/video-agent-template.md",
+    "report": "templates/report-agent-template.md",
+    "artifact": "templates/artifact-template.md",
+    "context": "templates/context-template.json"
+  },
+
+  "configuration": {
+    "root": "config/",
+    "required": [
+      "pipeline.json",
+      "dependencies.json",
+      "prompts.json",
+      "artifacts.json",
+      "context-ownership.json",
+      "validation.json",
+      "branding.json",
+      "outputs.json",
+      "filenames.json",
+      "production.json"
+    ]
+  },
+
+  "contracts": [
+    "docs/specifications/platform-specification.md",
+    "docs/specifications/architecture.md",
+    "docs/specifications/pipeline-contract.md",
+    "docs/specifications/context-contract.md",
+    "docs/specifications/ai-agent-contract.md",
+    "docs/specifications/template-contract.md"
+  ],
+
+  "promptRegistry": {
+    "configuration": "config/prompts.json"
+  },
+
+  "artifactRegistry": {
+    "configuration": "config/artifacts.json"
+  },
+
+  "branding": {
+    "configuration": "config/branding.json"
+  },
+
+  "documentation": {
+    "root": "docs/",
+    "platform": "PLATFORM.md",
+    "readme": "README.md"
+  },
+
+  "runtime": {
+    "pipelineEngine": true,
+    "sharedContexts": true,
+    "configurationDriven": true,
+    "parallelPublishing": true,
+    "validationEngine": true,
+    "executionReporting": true
+  },
+
+  "compatibility": {
+    "minimumTemplateVersion": "1.0.0",
+    "minimumContractVersion": "1.0.0",
+    "minimumPipelineVersion": "1.0.0",
+    "minimumContextVersion": "1.0.0"
+  }
+}

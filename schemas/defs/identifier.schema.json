@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+
+  "$id": "https://editorialafrica.ai/schemas/defs/identifier.schema.json",
+
+  "title": "Identifier",
+
+  "type": "string",
+
+  "pattern": "^[a-z][a-z0-9-]*$",
+
+  "examples": [
+    "editorial-summary",
+    "enterprise-agent",
+    "execution-report"
+  ]
+}

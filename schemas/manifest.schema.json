@@ -1,0 +1,241 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://editorialafrica.ai/schemas/manifest.schema.json",
+  "title": "EditorialAfrica Repository Manifest Schema",
+  "description": "Defines the structure of the EditorialAfrica repository manifest.",
+
+  "allOf": [
+    {
+      "$ref": "common.schema.json"
+    },
+    {
+      "type": "object",
+
+      "properties": {
+        "repository": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "repositoryType": {
+              "type": "string"
+            },
+            "license": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "description",
+            "repositoryType"
+          ]
+        },
+
+        "platform": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "architecture": {
+              "type": "string"
+            },
+            "executionModel": {
+              "type": "string"
+            },
+            "contextModel": {
+              "type": "string"
+            },
+            "runtime": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "name",
+            "architecture",
+            "executionModel"
+          ]
+        },
+
+        "versions": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "pattern": "^\\d+\\.\\d+\\.\\d+$"
+          }
+        },
+
+        "countries": {
+          "type": "object",
+          "properties": {
+            "default": {
+              "type": "string"
+            },
+            "supported": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "default",
+            "supported"
+          ]
+        },
+
+        "languages": {
+          "type": "object",
+          "properties": {
+            "default": {
+              "type": "string"
+            },
+            "supported": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "default",
+            "supported"
+          ]
+        },
+
+        "publicationChannels": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+
+        "agentCategories": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "uniqueItems": true
+        },
+
+        "pipeline": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+
+        "contexts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "file": {
+                "type": "string"
+              },
+              "owner": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "file",
+              "owner"
+            ]
+          }
+        },
+
+        "templates": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string"
+          }
+        },
+
+        "configuration": {
+          "type": "object",
+          "properties": {
+            "root": {
+              "type": "string"
+            },
+            "required": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "root",
+            "required"
+          ]
+        },
+
+        "contracts": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+
+        "promptRegistry": {
+          "type": "object"
+        },
+
+        "artifactRegistry": {
+          "type": "object"
+        },
+
+        "branding": {
+          "type": "object"
+        },
+
+        "documentation": {
+          "type": "object"
+        },
+
+        "runtime": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "boolean"
+          }
+        },
+
+        "compatibility": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "pattern": "^\\d+\\.\\d+\\.\\d+$"
+          }
+        }
+      },
+
+      "required": [
+        "repository",
+        "platform",
+        "versions",
+        "countries",
+        "languages",
+        "publicationChannels",
+        "agentCategories",
+        "pipeline",
+        "contexts",
+        "templates",
+        "configuration",
+        "contracts",
+        "runtime",
+        "compatibility"
+      ]
+    }
+  ]
+}

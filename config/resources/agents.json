@@ -14,12 +14,22 @@
     },
     {
       "id": "ComparativeAnalysis.Agent",
+      "category": "editorial",
+      "template": "editorial-agent-template",
+      "templateVersion": "1.0.0",
+      "artifact": "comparative-analysis.md",
+      "context": "editorial-context.json",
       "file": "prompts/ComparativeAnalysis.Agent.md",
       "version": "1.0.0",
       "enabled": true
     },
     {
       "id": "Enterprise.Agent",
+      "category": "editorial",
+      "template": "editorial-agent-template",
+      "templateVersion": "1.0.0",
+      "artifact": "enterprise.md",
+      "context": "editorial-context.json",
       "file": "prompts/Enterprise.Agent.md",
       "version": "1.0.0",
       "enabled": true

@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://editorialafrica.ai/schemas/common.schema.json",
+  "title": "EditorialAfrica Common Resource Schema",
+  "description": "Common metadata shared by all EditorialAfrica platform resources.",
+  "type": "object",
+
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "description": "Version of the schema used by this resource.",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+
+    "version": {
+      "type": "string",
+      "description": "Semantic version of the resource.",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+
+    "status": {
+      "type": "string",
+      "description": "Lifecycle status of the resource.",
+      "enum": [
+        "Draft",
+        "Review",
+        "Approved",
+        "Stable",
+        "Deprecated",
+        "Archived"
+      ]
+    },
+
+    "owner": {
+      "type": "string",
+      "description": "Owner responsible for maintaining the resource.",
+      "minLength": 1
+    },
+
+    "created": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the resource was created."
+    },
+
+    "lastUpdated": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the resource was last updated."
+    }
+  },
+
+  "required": [
+    "schemaVersion",
+    "version",
+    "status",
+    "owner"
+  ],
+
+  "additionalProperties": true
+}

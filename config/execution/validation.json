@@ -1,0 +1,40 @@
+{
+  "schemaVersion": "1.0.0",
+  "validationVersion": "1.0.0",
+
+  "repository": {
+    "requiredDirectories": {
+      "enabled": true,
+      "severity": "error"
+    },
+    "brandingConfiguration": {
+      "enabled": true,
+      "severity": "warning"
+    },
+    "requiredDocuments": true,
+    "configurationFiles": true,
+    "countryConfiguration": true
+  },
+
+  "configuration": {
+    "validateSchemas": true,
+    "validatePromptRegistry": true,
+    "validatePipeline": true,
+    "validateDependencies": true,
+    "validateContextOwnership": true
+  },
+
+  "execution": {
+    "validatePromptVersions": true,
+    "validateContextIntegrity": true,
+    "validateAgentOwnership": true,
+    "validatePipelineDependencies": true,
+    "validateExecutionStatus": true
+  },
+
+  "outputs": {
+    "validateArtifacts": true,
+    "validatePublicationReadiness": true,
+    "validateExecutionReport": true
+  }
+}

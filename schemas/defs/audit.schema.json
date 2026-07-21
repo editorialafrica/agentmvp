@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+
+  "$id": "https://editorialafrica.ai/schemas/defs/audit.schema.json",
+
+  "type": "object",
+
+  "properties": {
+
+    "createdBy": {
+      "type": "string"
+    },
+
+    "createdAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+
+    "updatedBy": {
+      "type": "string"
+    },
+
+    "updatedAt": {
+      "type": "string",
+      "format": "date-time"
+    }
+  },
+
+  "additionalProperties": false
+}

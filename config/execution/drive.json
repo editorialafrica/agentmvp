@@ -1,0 +1,7 @@
+{
+  "provider": "GoogleDrive",
+  "rootFolder": "EditorialAfrica",
+  "countryFolders": true,
+  "dailyFolders": true,
+  "archive": true
+}

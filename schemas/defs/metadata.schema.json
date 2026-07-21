@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://editorialafrica.ai/schemas/defs/metadata.schema.json",
+
+  "title": "Platform Metadata",
+
+  "description": "Common metadata shared by all EditorialAfrica resources.",
+
+  "type": "object",
+
+  "properties": {
+
+    "name": {
+      "type": "string"
+    },
+
+    "description": {
+      "type": "string"
+    },
+
+    "schemaVersion": {
+      "$ref": "version.schema.json"
+    },
+
+    "version": {
+      "$ref": "version.schema.json"
+    },
+
+    "status": {
+      "$ref": "lifecycle.schema.json"
+    },
+
+    "owner": {
+      "$ref": "owner.schema.json"
+    },
+
+    "created": {
+      "type": "string",
+      "format": "date"
+    },
+
+    "lastUpdated": {
+      "type": "string",
+      "format": "date"
+    }
+  },
+
+  "required": [
+    "name",
+    "description",
+    "schemaVersion",
+    "version",
+    "status",
+    "owner"
+  ],
+
+  "additionalProperties": false
+}
